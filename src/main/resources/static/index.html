@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Login</title>
+<meta charset="utf-8" />
+<meta name="description" content="Debe contener las palabras clave, tratar de atraer clicks y de longitud entre 150 y 160 caracteres">
+<link rel="stylesheet" href="/css/index.css" />
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<!-- <link rel="stylesheet" href="/css/comun.css" /> -->
+<!-- <link rel="shortcut icon" href="/favicon.ico" /> -->
+</head>
+ 
+<body>
+    <header>
+       <h1>Bienvenido a mi sitio web</h1>
+       <p>Debe logarse para poder visualizarlo.</p>
+       
+    </header>
+    <section>
+        <div class="card card-container">
+            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form action="" id="form" class="form-signin" >
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="text" id="inputUser" class="form-control" placeholder="Usuario" required autofocus>
+                <input type="password" id="inputPass" class="form-control" placeholder="contraseña" required>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Recordarme
+                    </label>
+                </div>
+                <input type="button" id="btnLogin" value="Entrar" class="btn btn-lg btn-primary btn-block btn-signin" /> 
+            </form><!-- /form -->
+            <a href="../olvidarPass/olvidarPass.html" class="forgot-password">
+                He olvidado la contraseña
+            </a>
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
+</body>
+<script src="/js/index.es6"></script>
+</html>
